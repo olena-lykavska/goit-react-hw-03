@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,25 @@
 
 .read-the-docs {
   color: #888;
+} */
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  /* Вирівнює по центру */
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Вирівнює внутрішні елементи по центру */
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #333;
 }
